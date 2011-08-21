@@ -17,9 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "modcloth"
   gem.homepage = "http://github.com/timbogit/modcloth"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{'closest_fibonacci' method extension to Numeric}
+  gem.description = %Q{Adds a method called 'closest_fibonacci' to Numeric which returns the largest integer value from the Fibonacci sequence smaller, or equal to, the given Numeric instance}
   gem.email = "tim.schmelmer@gmail.com"
+  gem.files 	= FileList['*.rb', 'lib/**/*.rb', 'bin/**/*', 'examples/**/*', '[A-Z]*', 'test/**/*'].to_a
   gem.authors = ["Tim Schmelmer"]
   # dependencies defined in Gemfile
 end

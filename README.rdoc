@@ -1,6 +1,13 @@
 = modcloth
 
-Description goes here.
+This is a small Core Extension to all Numerics which allows for returning the largest integer value from the Fibonacci sequence smaller or equal to the given Numeric instance. Note that an ArgumentError is raised when the Numeric instance is negative.
+
+- Examples:
+     144.closest_fibonacci   #=> 144
+     156.closest_fibonacci   #=> 144
+     99.closest_fibonacci    #=> 89
+     2.999.closest_fibonacci #=> 2
+     -1.closest_fibonacci    #=> ArgumentError: the Fibonacci Sequence does not contain negative numbers.
 
 == Contributing to modcloth
  
